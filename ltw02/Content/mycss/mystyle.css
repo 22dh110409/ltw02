@@ -1,0 +1,99 @@
+﻿body {
+    margin: 0px;
+}
+
+#div-top {
+    background-color: lightpink;
+    width: 100%;
+    height: auto;
+}
+
+#div-left {
+    background-color: palegoldenrod;
+    width: 20%;
+    height: 700px;
+    float: left;
+}
+
+#div-content {
+    background-color: antiquewhite;
+    width: 80%;
+    height: 700px;
+    float: left;
+    padding-bottom: 100px;
+}
+
+#div-footer {
+    background-color: peachpuff;
+    width: 100%;
+    height: 100px;
+    clear: both;
+    padding: 30px;
+}
+
+.fm-menu {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.fm-link-menu {
+    text-decoration: none;
+    padding: 15px;
+}
+
+#fm-tenshop {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fm-link-menu:hover {
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.fm-link-menu-tenshop {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.fm-image-left {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.box-pro {
+    width: 200px;
+    height: 370px;
+    background-color: lemonchiffon;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.box-img {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+
+.fm-size-img {
+    width: 150px;
+    height: 150px;
+}
+
+.box-des {
+    background-color: aquamarine;
+    text-align: center;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border-end-start-radius: 15px;
+    border-end-end-radius: 15px;
+    padding: 5px;
+}
+
+.list-pro {
+    display: flex;
+    flex-wrap: wrap;
+}
